@@ -17,13 +17,11 @@ const pageCache = new CacheFirst({
       maxAgeSeconds: 30 * 24 * 60 * 60,
     }),
   ],
-  
 });
 
 warmStrategyCache({
   urls: ['/index.html', '/'],
   strategy: pageCache,
-  
 });
 
 registerRoute(({ request }) => request.mode === 'navigate', pageCache);
