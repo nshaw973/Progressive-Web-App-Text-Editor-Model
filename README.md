@@ -3,11 +3,35 @@ Application created during the UCI bootcamp class, in order to demonstrate the P
 
 ## Deployed App
 
+[Just Another Text Editor](https://infinite-falls-29096.herokuapp.com/)
+
 ## Screenshots
 
-## How to Run
+![Main Page](./images/browser-page.PNG)
+![Manifest](./images/manifest.PNG)
+![Service Worker](./images/sw.PNG)
+![Installed App](./images/installed-app.PNG)
 
+## How to Run
+- Application currently only works in Chrome!!!
+- Load the deployed page in the link above.
+- An IndexDataBase will be created, but will currently be empty.
+- Begin typing away in the editor, once you click away from the page, whatever was typed in the editor, will be saved in the indexDB.
+- Then when reloading, or closing out and coming back to the page, you'll be presented with the previously typed text in the editor.
+- When clicking the install button, you'll be prompted if you'd like to install.
+- The program will then install and appear on the desktop.
+- To uninstall, click on the column of three dots on the top of the browser, and select
+```
+Uninstall Just Another Text Editor
+```
 ## About the App
+
+This app was created to show, skills in creating a functioning Progressive Web Application.
+In the prosses, the technologies used were:
+- Webpack and plugins
+- Creating a Service Workers
+- Creating a Manifest
+- working with the browsers indexDB 
 
 ## User Story
 
@@ -46,3 +70,8 @@ THEN I should have my static assets pre cached upon loading along with subsequen
 WHEN I deploy to Heroku
 THEN I should have proper build scripts for a webpack application
 ```
+
+## About
+
+Created by Nathan Shaw
+Github: [nshaw973](https://github.com/nshaw973)
